@@ -220,6 +220,20 @@
                 observer.observe(card);
             });
         });
+
+
+
+
+        /*non fare copiare */
+        document.addEventListener("keydown", function(e) {
+    if (e.ctrlKey && (e.key === "u" || e.key === "U")) {
+        e.preventDefault();
+        alert("View Source is disabled.");
+    }
+});
+
+document.addEventListener("contextmenu", (event) => event.preventDefault());
+
     </script>
     <a href="https://wa.me/393331234567" target="_blank" class="whatsapp-float" title="Contattaci su WhatsApp">
         <i class="fab fa-whatsapp whatsapp-icon"></i>
