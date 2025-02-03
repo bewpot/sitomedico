@@ -117,7 +117,10 @@ display: none;
         top: 70%; /* Regola la posizione verticale per adattarla meglio */
     }
 }
-
+@media (max-width: 576px) and (orientation: landscape) {
+header {
+    height:6vw
+}
 /* Media query per schermi medi (tablet) */
 @media (max-width: 768px) {
     .hero h1 {
