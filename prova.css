@@ -64,7 +64,7 @@ display: none;
     }
 }
 /* Media query per smartphone orizzontale */
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (orientation: landscape) {
     header {
         height: clamp(10vh, 8vw, 13vh); /* Altezza più ridotta */
     }
