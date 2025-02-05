@@ -86,7 +86,7 @@ display: none;
    position: relative;
    max-height: 90vh;
    width: 100%;
-   background-image: url(4.jpg);
+   background-image:url(4.jpg);
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
