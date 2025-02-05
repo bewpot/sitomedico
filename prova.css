@@ -51,7 +51,7 @@ nav {
 display: none;
 }
  header {
-        height: 10vh;
+       height: max(6vh, 4vw);
     }
 
     button#dropdownMenuButton {
