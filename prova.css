@@ -66,7 +66,7 @@ display: none;
 /* Media query per smartphone orizzontale */
 @media (max-width: 1024px) and (orientation: landscape) {
     header {
-        height: clamp(6vh, 5vw, 8vh); /* Altezza più ridotta */
+        height: clamp(10vh, 8vw, 13vh); /* Altezza più ridotta */
     }
 
     button#dropdownMenuButton {
