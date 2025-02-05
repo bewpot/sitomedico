@@ -87,19 +87,19 @@ display: none;
     height: 100%;
     width: 70vw;
     background-image: url(4.jpg);
-    background-size: cover;
+  
     background-position: 50% 20%;
     background-repeat: no-repeat;
   
     opacity: 0.85;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      touch-action: manipulation; /* Limita l'azione del tocco */
+    background-size: 100% 100%;
+    background-attachment: fixed; /* Mantiene il background fisso */
+    -webkit-transform: translateZ(0); /* Forza il rendering a livello hardware */
     
 }
-@media (hover: none) {
-    .hero {
-        pointer-events: none; /* Evita l'effetto hover */
-    }
-}
+
 
 .hero-content {
     position: absolute;
