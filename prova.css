@@ -54,13 +54,13 @@ display: none;
        height: max(6vh, 6vw);
     }
 
-    button#dropdownMenuButton {
-        font-size: clamp(0.9rem, 2.5vw, 1.2rem);
-        padding: clamp(5px, 2vw, 8px);
+  button#dropdownMenuButton {
+        font-size: max(0.9rem, 2vw);
+        padding: max(4px, 1.2vw);
     }
 
- .navbar-brand {
-        font-size: clamp(0.9rem, 2vw, 1.2rem);
+    .navbar-brand {
+        font-size: max(0.9rem, 2vw);
     }
 }
 /* Media query per smartphone orizzontale */
