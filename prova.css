@@ -51,7 +51,7 @@ nav {
 display: none;
 }
  header {
-        height: clamp(13vh, 10vw, 14vh);
+        height: 20vh;
     }
 
     button#dropdownMenuButton {
