@@ -84,7 +84,7 @@ display: none;
 
 .hero {
    position: relative;
-   max-height: 90vh;
+   height:100%;
    width: 100%;
    background-image:url(4.jpg);
    background-size: contain;
