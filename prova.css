@@ -50,6 +50,18 @@ color: #007bff; /* Colore di hover */
 nav {
 display: none;
 }
+    header {
+    height: 12vh;
+}
+
+button#dropdownMenuButton {
+    font-size: 1.2rem;
+    padding: 6px 10px;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+}
 }
 
 @keyframes fadeIn {
