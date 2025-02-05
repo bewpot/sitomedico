@@ -93,8 +93,12 @@ display: none;
   
     opacity: 0.85;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-     -webkit-backface-visibility: hidden; /* Migliora la stabilità visiva */
-    -webkit-transform: translate3d(0, 0, 0); /* Forza il rendering */
+    
+}
+@media (hover: none) {
+    .hero {
+        pointer-events: none; /* Evita l'effetto hover */
+    }
 }
 
 .hero-content {
