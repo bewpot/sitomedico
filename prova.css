@@ -83,16 +83,15 @@ display: none;
 }
 
 .hero {
-   position: relative;
-   height:100%;
-   width: 70vw;
-   background-image:url(4.jpg);
-   background-size: contain;
-   background-position: center;
-   background-repeat: no-repeat;
-   opacity: 0.85;
-   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-     
+    position: relative;
+    height: 100%;
+    width: 65vw;
+    background-image: url(4.jpg);
+    background-size: cover;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 
