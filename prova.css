@@ -117,34 +117,6 @@ display: none;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-/* Media query per schermi piccoli (smartphone) */
-@media (max-width: 576px) {
-    .hero h1 {
-        font-size: 1.8rem; /* Dimensione più piccola per smartphone */
-    }
-
-    .hero p {
-        font-size: 1rem; /* Riduci la dimensione del paragrafo */
-    }
-
-    .hero-content {
-        top: 70%; /* Regola la posizione verticale per adattarla meglio */
-    }
-}
-@media (max-width: 576px) and (orientation: landscape) {
-header {
-    height:6vw
-}
-/* Media query per schermi medi (tablet) */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.2rem; /* Dimensione leggermente più grande rispetto agli smartphone */
-    }
-
-    .hero p {
-        font-size: 1.1rem; /* Adatta la dimensione del paragrafo */
-    }
-}
 
 
 
