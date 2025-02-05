@@ -87,7 +87,7 @@ display: none;
     height: 100%;
     width: 70vw;
     background-image: url(4.jpg);
-  background-size:60vw 90vh;
+  background-size:cover;
     background-position: 50% 20%;
     background-repeat: no-repeat;
   
