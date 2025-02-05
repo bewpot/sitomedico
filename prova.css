@@ -63,7 +63,21 @@ display: none;
         font-size: clamp(0.9rem, 2vw, 1.2rem);
     }
 }
+/* Media query per smartphone orizzontale */
+@media (max-width: 1024px) and (orientation: landscape) {
+    header {
+        height: clamp(6vh, 5vw, 8vh); /* Altezza più ridotta */
+    }
 
+    button#dropdownMenuButton {
+        font-size: clamp(0.9rem, 2vw, 1.1rem);
+        padding: clamp(4px, 1.5vw, 8px);
+    }
+
+    .navbar-brand {
+        font-size: clamp(0.9rem, 2vw, 1.2rem);
+    }
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
