@@ -77,11 +77,11 @@ display: none;
 }
 
 #container {
-    
+    position:relative;
     display: flex;
     justify-content: center;
     align-items: center;
-height: max(90dvh, 60vw);
+min-height: max(90dvh, 60vw);
     background: linear-gradient(to bottom, #d8e2dc, #f8edeb);
 
   
