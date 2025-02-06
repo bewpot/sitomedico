@@ -81,8 +81,7 @@ display: none;
     display: flex;
     justify-content: center;
     align-items: center;
- height: 100%;
-    min-height: 90vh; /* Per dare comunque una misura minima */
+ height:max(90vh;60vw);
 
     background: linear-gradient(to bottom, #d8e2dc, #f8edeb);
 }
