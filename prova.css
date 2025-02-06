@@ -81,7 +81,7 @@ display: none;
     justify-content: center;
     align-items: center;
     height: max(90dvh, 60vw);
-overflow: hidden;
+
     background: linear-gradient(to bottom, #d8e2dc, #f8edeb);
 }
 
@@ -96,13 +96,13 @@ overflow: hidden;
     opacity: 0.85;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     -webkit-transform: translate3d(0,0,0); /* previene il bug dello zoom */
-    overflow: hidden;
+   
 }
 
 
 .hero-content {
     position: absolute;
-    top: 80%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
