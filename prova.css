@@ -80,6 +80,8 @@ display: none;
     position: fixed;
     top: 0;
     left: 0;
+    width:100vw;
+    heght:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
