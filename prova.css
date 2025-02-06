@@ -87,7 +87,7 @@ display: none;
     height: 100%;
     width: 65vw;
     background-image: url(4.jpg);
-    background-size: cover;
+    background-size: 50px 50px;
     background-position: 50% 10%;
     background-repeat: no-repeat;
     opacity: 0.85;
