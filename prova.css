@@ -82,6 +82,7 @@ display: none;
     justify-content: center;
     align-items: center;
 height: max(90dvh, 60vw);
+    background: linear-gradient(to bottom, #d8e2dc, #f8edeb);
 
   
 }
