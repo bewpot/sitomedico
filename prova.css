@@ -53,7 +53,7 @@ nav {
 display: none;
 }
  header {
-       height: 6vh;
+       height: max(6vh, 6vw)
     }
 
   button#dropdownMenuButton {
@@ -87,7 +87,7 @@ display: none;
 }
 
 .hero {
-    position: relative;
+    
     height: 100%;
     width: 65vw;
     background-image: url(4.jpg);
