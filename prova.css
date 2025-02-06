@@ -48,9 +48,15 @@ color: #007bff; /* Colore di hover */
 }
 
 /* Nascondi la barra di navigazione per schermi più piccoli */
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
 nav {
 display: none;
+}
+#container {
+    height:60vh;
+}
+.hero {
+    width:100vw;
 }
  header {
        height: max(6vh, 6vw)
