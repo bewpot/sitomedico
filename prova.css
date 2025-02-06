@@ -6,8 +6,6 @@ body, html {
     -moz-user-select: none;    /* Firefox */
     -ms-user-select: none;     /* Internet Explorer/Edge */
     user-select: none;         /* Standard */
-      overscroll-behavior: none;
-  
 }
 
 header {
@@ -48,18 +46,12 @@ color: #007bff; /* Colore di hover */
 }
 
 /* Nascondi la barra di navigazione per schermi più piccoli */
-@media screen and (max-width: 840px) {
+@media (max-width: 840px) {
 nav {
 display: none;
 }
-#container {
-    height:60vh;
-}
-.hero {
-    width:100vw;
-}
  header {
-       height: max(6vh, 6vw)
+       height: max(6vh, 6vw);
     }
 
   button#dropdownMenuButton {
@@ -83,35 +75,30 @@ display: none;
 }
 
 #container {
-    position:relative;
     display: flex;
     justify-content: center;
     align-items: center;
-height:90vh;
+    height: max(90vh,60vw);
     background: linear-gradient(to bottom, #d8e2dc, #f8edeb);
-
-  
 }
 
 .hero {
-    position:relative;
+  
     height: 100%;
     width: 65vw;
-    background-image: url(4.jpg);
-    background-size:cover;
+    background-image: url(ai-generated-9019520_1280.webp);
+    background-size: cover;
     background-position: 50% 10%;
     background-repeat: no-repeat;
     opacity: 0.85;
-   
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     -webkit-transform: translate3d(0,0,0); /* previene il bug dello zoom */
-   
 }
 
 
 .hero-content {
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -120,7 +107,7 @@ height:90vh;
 
 .hero h1 {
     width: 100%;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     color:goldenrod
@@ -357,3 +344,4 @@ color: #fff;
     background-color: #a67c52;
     color: #ffffff;
 }
+
