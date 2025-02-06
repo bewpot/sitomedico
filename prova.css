@@ -96,6 +96,7 @@ overflow: hidden;
     opacity: 0.85;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     -webkit-transform: translate3d(0,0,0); /* previene il bug dello zoom */
+    overflow: hidden;
 }
 
 
