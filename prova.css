@@ -74,11 +74,12 @@ display: none;
     }
 }
 
+
 #container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: max(90vh,60vw);
+    height: calc(var(--vh, 1vh) * 90);
     background: linear-gradient(to bottom, #d8e2dc, #f8edeb);
 }
 
